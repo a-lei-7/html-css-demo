@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        .content-box {
+            margin: 25px;
+            border: 5px solid red;
+            padding: 15px;
+            box-sizing: content-box;
+            width: 100px;
+        }
+
+        .border-box {
+            margin: 25px;
+            border: 5px solid red;
+            padding: 15px;
+            box-sizing: border-box;
+            width: 100px;
+        }
+
+        .parent {
+
+            width: 500px;
+            margin: 20px 0px;
+
+        }
+
+        .child1 {
+            border: salmon 2px solid;
+            margin: 20px 0;
+            width: 460px;
+
+
+        }
+
+        .child2 {
+            border: palevioletred 2px solid;
+            margin: 20px 0;
+            width: 460px;
+            display: inline-block;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content-box">content box</div>
+    <div class="border-box">border box</div>
+    <div class="parent">
+        <div class="child1">child1</div>
+        <div class="child2">child2</div>
+    </div>
+</body>
+
+</html>
