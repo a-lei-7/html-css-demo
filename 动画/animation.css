@@ -1,52 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .space {
-    height: 100px;
-    width: 100px;
-    position: relatie;
-    display: inline-block;
-    margin: 150px 110px;
-    animation: .7s moving ease infinite alternate;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+  margin: 150px 110px;
+  animation: 0.7s moving ease infinite alternate;
 }
 
-
-
 @keyframes moving {
-    from {
-        transform: scale(.9);
-    }
+  from {
+    transform: scale(0.9);
+  }
 
-    to {
-        transform: scale(1.1);
-    }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 .round1 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    transform: rotate(.125turn) translateX(-55px);
-    border-radius: 50%;
-    background-color: red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transform: rotate(0.125turn) translateX(-55px);
+  border-radius: 50%;
+  background-color: red;
 }
 
 .round2 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    transform: rotate(.125turn) translateY(-55px);
-    border-radius: 50%;
-    background-color: red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transform: rotate(0.125turn) translateY(-55px);
+  border-radius: 50%;
+  background-color: red;
 }
 
 .square {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    transform: rotate(.125turn);
-    background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transform: rotate(0.125turn);
+  background-color: red;
 }
